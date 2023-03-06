@@ -4,7 +4,7 @@ A clean and simple portfolio template built with plain HTML, CSS and JavaScript.
 
 ## Preview
 
-[![imgur](https://i.imgur.com/aBVyFld.gif)](mrabdlrhman.github.io/)
+![Portfolio Screenshot](/assets/img/portfolio.gif)
 
 [Demo](mrabdlrhman.github.io/)
 

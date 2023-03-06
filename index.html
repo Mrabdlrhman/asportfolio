@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Abdulrahman Salem</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/Mrabdlrhman/mrabdlrhman.github.io" class="link"
+          >AS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <!--<button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>-->
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Abdulrahman Salem.</span></h1>
+        <h2 class="about__role">A Software Engineer.</h2>
+        <p class="about__desc">
+          Software Engineer with work experience in multiple domains: e-learning, logistics, and e-commerce. Ability to innovate new solutions, plan them with the team, and lead the implementation processes to deliver efficient, smart, easy-to-use applications to customers.
+        </p>
+
+        <div class="about__contact center">
+          <!--<a href="https://example.com" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>-->
+
+          <a
+            href="https://github.com/Mrabdlrhman"
+            aria-label="github"
+            class="link link--icon"
+			target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/abdulrahmansalem"
+            aria-label="linkedin"
+            class="link link--icon"
+			target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+         <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;font-size: 10rem;line-height: 1.2;">Practical</h1>
+                <h1 class="position-absolute text-uppercase text-primary" style="font-weight: 900 !important;font-size: 2.5rem;background-color: transparent;">Projects</h1>
+            </div>
+            
+        </div>
+
+        <div class="projects__grid">
+		    <div class="project">
+            <h3>Financial Academy</h3>
+
+            <p class="project__description">
+              Enterprise learning management system for financial sector
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Moodle</li>
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">HTML</li>
+			  <li class="project__stack-item">CSS</li>
+			  <li class="project__stack-item">JavaScript</li>
+			  <li class="project__stack-item">Redis</li>
+			  <li class="project__stack-item">MySQLi</li>
+			  <li class="project__stack-item">On-Premise</li>
+            </ul>
+
+
+            <a
+              href="https://fa.gov.sa/"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+			<a
+              href="#"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Monsha’at SMEs</h3>
+
+            <p class="project__description">
+               National E-training platform for SMEs
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Moodle</li>
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">HTML</li>
+			  <li class="project__stack-item">CSS</li>
+			  <li class="project__stack-item">JavaScript</li>
+			  <li class="project__stack-item">Docker</li>
+			  <li class="project__stack-item">PostgreSQL</li>
+			  <li class="project__stack-item">AWS EC2</li>
+            </ul>
+
+
+            <a
+              href="https://academy.monshaat.gov.sa/"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+			<a
+              href="#"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>TomeCute</h3>
+            <p class="project__description">
+              OpenCart online e-commerce site
+            </p>
+            <ul class="project__stack">
+			  <li class="project__stack-item">OpenCart</li>
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">HTML</li>
+			  <li class="project__stack-item">CSS</li>
+			  <li class="project__stack-item">JavaScript</li>
+			  <li class="project__stack-item">MySQLi</li>
+            </ul>
+
+
+            <a
+              href="https://tomecute.com/"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+		    <a
+              href="#"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>LDI</h3>
+            <p class="project__description">
+              Academy under the Ministry of sport
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Moodle</li>
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">HTML</li>
+			  <li class="project__stack-item">CSS</li>
+			  <li class="project__stack-item">JavaScript</li>
+			  <li class="project__stack-item">PostgreSQL</li>
+			  <li class="project__stack-item">AWS EC2</li>
+            </ul>
+
+
+            <a
+              href="https://lms.ldi.sa/"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              href="#"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+		  <div class="project">
+            <h3>SWAC Academy</h3>
+
+            <p class="project__description">
+              Training platform for class knowledge in water solutions
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Moodle</li>
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">HTML</li>
+			  <li class="project__stack-item">CSS</li>
+			  <li class="project__stack-item">JavaScript</li>
+			  <li class="project__stack-item">MariaDB</li>
+            </ul>
+
+
+            <a
+              href="https://lms.swcc.gov.sa"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              href="#"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+		  <div class="project">
+            <h3>FHM</h3>
+
+            <p class="project__description">
+              Registration Management System
+            </p>
+            <ul class="project__stack">
+			  <li class="project__stack-item">NodeJS</li>
+              <li class="project__stack-item">HTML</li>
+			  <li class="project__stack-item">CSS</li>
+			  <li class="project__stack-item">TypeScript</li>
+			  <li class="project__stack-item">AngularJS</li>
+			  <li class="project__stack-item">Firestore DB</li>
+            </ul>
+
+
+            <a
+              href="https://mrabdlrhman.github.io/FHMs"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              href="#"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+		  <div class="project">
+            <h3>Mabet4u</h3>
+
+            <p class="project__description">
+              Application to host pilgrims and Umrah
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">XML</li>
+              <li class="project__stack-item">RESTful API</li>
+            </ul>
+
+
+            <a
+              href="https://mabet4u.com/"
+              aria-label="live preview"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              href="https://github.com/Mrabdlrhman/Mabets4u.git"
+              aria-label="source code"
+              class="link link--icon"
+			  target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+          <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;font-size: 10rem;line-height: 1.2;">Technology</h1>
+                <h1 class="position-absolute text-uppercase text-primary" style="font-weight: 900 !important;font-size: 2.5rem;background-color: transparent;">Skills</h1>
+            </div>
+            
+        </div>
+        <ul class="skills__list">
+		  <li class="skills__list-item btn btn--plain">Moodle</li>
+		  <li class="skills__list-item btn btn--plain">OpenCart</li>
+		  <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">jQuery</li>
+		  <li class="skills__list-item btn btn--plain">AngularJS</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+		  <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+		  <li class="skills__list-item btn btn--plain">Docker</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+		  <li class="skills__list-item btn btn--plain">Agile Methodologies</li>
+
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;font-size: 10rem;line-height: 1.2;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary" style="font-weight: 900 !important;font-size: 2.5rem;background-color: transparent;">Contact Me</h1>
+            </div>
+            
+        </div>
+        <a href="mailto:abdlrhman.salems@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
